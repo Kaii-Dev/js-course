@@ -7,16 +7,12 @@ window.addEventListener("load", function(){
       tooltipDiv.textContent= title;
       document.body.appendChild(tooltipDiv);
       const cords = event.target.getBoundingClientRect();
-      const {top, left, width} = cords;
+      const {top, left, width, height} = cords;
       const tooltipHeight= tooltipDiv.offsetHeight ;
-
+      // const tooltipWidth = tooltipDiv.tooltipWidth;
       const triangleHeight = 20;
       tooltipDiv.style.left = `${left - width/2}px`;
       tooltipDiv.style.top = `${top - tooltipHeight - triangleHeight}px`;
-   });
-   text.addEventListener("mouseleave", function(event){
-      const tooltip = document.querySelector(".tooltip-text");
-      if(!tooltip) return;
-      tooltip.parentNode.removeChild(tooltip);
+
    })
 });

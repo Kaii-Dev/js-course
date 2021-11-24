@@ -1,0 +1,17 @@
+window.addEventListener("load", function(){
+   const links = [...document.querySelectorAll(".menu-link")];
+
+   links.forEach(item => item.addEventListener("mouseenter", handleOverLink));
+
+   const line = document.createElement("div");
+   line.className = "line-effect";
+   document.body.appendChild(line);
+
+   function handleOverLink(event){
+      const {left, top, width, height} = event.target.getBoundingClientRect();
+      console.log({left, top, width, height});
+      line.style.width = `${width}px`;
+      line.style.height = `${height}px`;
+   }
+
+})
