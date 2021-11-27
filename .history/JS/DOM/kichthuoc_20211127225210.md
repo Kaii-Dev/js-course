@@ -1,0 +1,20 @@
+pageX:
+
+
+pageY
+
+
+clientX
+
+
+clientY
+
+
+getBoundingClientRect
+
+
+offsetWidth
+
+
+
+offsetHeight :
