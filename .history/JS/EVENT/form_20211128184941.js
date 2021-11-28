@@ -3,6 +3,7 @@ const input = document.querySelector(".input");
 //event.key : kiểm tra xem phím mình nhập vào là phím gì
 
 // 1.KEYDOWN : khi nhấn bàn phím xuống
+ààà
 input.addEventListener("keydown", function(event){
    // console.log(event.key); //
    if(event.key =="Enter"){

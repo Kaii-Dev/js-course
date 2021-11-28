@@ -1,8 +1,9 @@
 const input = document.querySelector(".input");
 
 //event.key : kiểm tra xem phím mình nhập vào là phím gì
-
+con =1;
 // 1.KEYDOWN : khi nhấn bàn phím xuống
+
 input.addEventListener("keydown", function(event){
    // console.log(event.key); //
    if(event.key =="Enter"){
@@ -10,7 +11,6 @@ input.addEventListener("keydown", function(event){
       event.preventDefault();
    }
 })
-console.log(hi);
 
 // 2.KEYUP : khi nhấn bàn phím xuống rồi thả phím ra thì sẽ chạy, KHÔNG XÀI ĐƯỢC event.preventdefault vì keyup là sự kiện xảy ra sau
 
