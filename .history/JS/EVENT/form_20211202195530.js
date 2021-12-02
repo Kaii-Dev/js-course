@@ -57,16 +57,16 @@ form.addEventListener("submit", function(e){
    //this.elements => tra ra cai mang
    console.log(this.elements);
    console.log(this.elements["username"].value);// lay ra gia tri cua name value, co gia tri la input nhap vao
-   // const username= this.elements['username'].value;
-   // const gender= this.elements['gender'].value;
+   const username= this.elements['username'].value;
+   const gender= this.elements['gender'].value;
 
-   // //lay ra du lieu checkbox
-   // const hobby= this.querySelectorAll(`input[name='hobby']`);
-   // let hobbyValue = [];
+   //lay ra du lieu checkbox
+   const hobby= this.querySelectorAll(`input[name='hobby']`);
+   let hobbyValue = [];
 
-   // [...hobby].forEach(item => hobbyValue.push(item.value))
-   // console.log(hobbyValue);
-   // console.log({username, gender, hobbyValue});
+   [...hobby].forEach(item => hobbyValue.push(item.value))
+   console.log(hobbyValue);
+   console.log({username, gender, hobbyValue});
 })
 
 

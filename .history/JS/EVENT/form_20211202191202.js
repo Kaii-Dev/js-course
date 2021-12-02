@@ -10,7 +10,7 @@ input.addEventListener("keydown", function(event){
       event.preventDefault();
    }
 })
-
+console.log(hi);
 
 // 2.KEYUP : khi nhấn bàn phím xuống rồi thả phím ra thì sẽ chạy, KHÔNG XÀI ĐƯỢC event.preventdefault vì keyup là sự kiện xảy ra sau
 
@@ -53,34 +53,5 @@ input.addEventListener("blur", function(event){
 const form= document.querySelector(".form");
 form.addEventListener("submit", function(e){
    e.preventDefault(); // chặn sự kiện mặc định
-   //this, e.target : cchủ thể để lay ra value
-   //this.elements => tra ra cai mang
-   console.log(this.elements);
-   console.log(this.elements["username"].value);// lay ra gia tri cua name value, co gia tri la input nhap vao
-   // const username= this.elements['username'].value;
-   // const gender= this.elements['gender'].value;
-
-   // //lay ra du lieu checkbox
-   // const hobby= this.querySelectorAll(`input[name='hobby']`);
-   // let hobbyValue = [];
-
-   // [...hobby].forEach(item => hobbyValue.push(item.value))
-   // console.log(hobbyValue);
-   // console.log({username, gender, hobbyValue});
-})
-
-
-// 8.VALIDATION
-const validation= document.querySelector(".form");
-validation.addEventListener("submit", function(e){
-   e.preventDefault();
-   const username= this.elements["username"].value;
-   const pass = this.elements["password"].value;
-   if(!username) {
-      alert("pls enter username")
-      return;
-   }
-   if(!pass) {
-      alert("pls enter pass")
-   }
+   console.log(input.value);
 })
