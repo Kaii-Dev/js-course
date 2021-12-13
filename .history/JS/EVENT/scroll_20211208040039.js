@@ -24,27 +24,4 @@
    // 3.window.pageYOffset và window.pageXOffset
       // window.pageYOffset : khoảng cách scroll của window theo chiều dọc so với phía trên cùng
       // window.pageYOffset : khoảng cách scroll của window theo chiều dọc so với phía bên trái
-   
-
-   /** 4. scrollTOp, scrollLeft, scrollTo, scroll, scrollHeight, scrollWidth
-    * scrollHeight : trả về chiều cao của element bao gồm padding, nhưng không có boder
-    * 
-    * scrollWidth : trả về chiều rộng của ele bao gồm padding , nhưng không có border
-    * 
-    * scrollTop : scroll trong ele khac voi scroll trong window cua scrollwidth
-    */
-
-   // scroll(x, y)
-   const boxed = document.querySelector(".boxed");
-   boxed.addEventListener("scroll", function (e){
-      console.log(boxed.scrollTop);
-   })
-
-
-// 5. sự khác nhau giữa offsetWidth hoặc scrollWidth
-   // SCROLLWIDTH : LẤY ĐỘ RỘNG CỦA PHẦN TỬ CON BÊN TRONG MÀ LÀM NÓ XUẤT HIỆN SCROLL 
-   // OFFSETWIDTH : LẤY ĐỘ RỘNG ĐC SET BAN ĐẦU
-
-
-// 6. SCROLLINTOVIEW() : GIÚP CHÚNG TA THẤY ĐƯỢC ELE NÀO ĐÓ
-   //dán dòng này vào trình duyệt console : boxed.scrollIntoView()
+      

@@ -42,9 +42,5 @@
 
 
 // 5. sự khác nhau giữa offsetWidth hoặc scrollWidth
-   // SCROLLWIDTH : LẤY ĐỘ RỘNG CỦA PHẦN TỬ CON BÊN TRONG MÀ LÀM NÓ XUẤT HIỆN SCROLL 
-   // OFFSETWIDTH : LẤY ĐỘ RỘNG ĐC SET BAN ĐẦU
-
-
-// 6. SCROLLINTOVIEW() : GIÚP CHÚNG TA THẤY ĐƯỢC ELE NÀO ĐÓ
-   //dán dòng này vào trình duyệt console : boxed.scrollIntoView()
+   // SCROLLWIDTH : LẤY LUÔN ĐỘ RỘNG BÊN TRONG 
+   // OFFSETWIDTH : LẤY LUÔN ĐỘ RỘNG BÊN TRONG 

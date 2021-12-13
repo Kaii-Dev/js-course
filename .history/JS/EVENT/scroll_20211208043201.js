@@ -46,5 +46,4 @@
    // OFFSETWIDTH : LẤY ĐỘ RỘNG ĐC SET BAN ĐẦU
 
 
-// 6. SCROLLINTOVIEW() : GIÚP CHÚNG TA THẤY ĐƯỢC ELE NÀO ĐÓ
-   //dán dòng này vào trình duyệt console : boxed.scrollIntoView()
+// 6. SCROLLINTOVIEW()

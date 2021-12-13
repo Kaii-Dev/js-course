@@ -47,4 +47,4 @@
 
 
 // 6. SCROLLINTOVIEW() : GIÚP CHÚNG TA THẤY ĐƯỢC ELE NÀO ĐÓ
-   //dán dòng này vào trình duyệt console : boxed.scrollIntoView()
+   
