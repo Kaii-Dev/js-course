@@ -39,7 +39,7 @@
       console.log(boxed.scrollTop);
       console.log(boxed.scrollLeft);
    })
-   // scroll(x, y) : window.scroll(200,100)
+   // scroll(x, y)
 
 
 // 5. sự khác nhau giữa offsetWidth hoặc scrollWidth

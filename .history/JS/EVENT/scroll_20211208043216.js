@@ -34,12 +34,11 @@
     * scrollTop : scroll trong ele khac voi scroll trong window cua scrollwidth
     */
 
+   // scroll(x, y)
    const boxed = document.querySelector(".boxed");
    boxed.addEventListener("scroll", function (e){
       console.log(boxed.scrollTop);
-      console.log(boxed.scrollLeft);
    })
-   // scroll(x, y) : window.scroll(200,100)
 
 
 // 5. sự khác nhau giữa offsetWidth hoặc scrollWidth
@@ -47,5 +46,4 @@
    // OFFSETWIDTH : LẤY ĐỘ RỘNG ĐC SET BAN ĐẦU
 
 
-// 6. SCROLLINTOVIEW() : GIÚP CHÚNG TA THẤY ĐƯỢC ELE NÀO ĐÓ
-   //dán dòng này vào trình duyệt console : boxed.scrollIntoView()
+// 6. SCROLLINTOVIEW() : GIÚP CHÚNG TA THẤY ĐƯỢC ELE 
