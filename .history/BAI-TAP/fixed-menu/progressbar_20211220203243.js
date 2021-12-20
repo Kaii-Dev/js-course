@@ -7,8 +7,7 @@ window.addEventListener("scroll", function(){
    //tinh ra chieu cao  cua document khong bao gom scrollbar document.documentElement.clientHeight
    //tinh ra chieu cao cua scrollbar
    const height = 
-   document.documentElement.scrollHeight - 
-   document.documentElement.clientHeight;
+   document.documentElement.scrollHeight - this.document.documentElement.clientHeight;
    console.log(height);
    const width = (scrollTop / height) * 100
    // console.log(width);
