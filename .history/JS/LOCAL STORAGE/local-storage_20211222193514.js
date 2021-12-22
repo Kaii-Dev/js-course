@@ -1,0 +1,7 @@
+// LOCAL STORAGE : HỖ TRỢ LƯU TRỮ DỮ LIỆU TRÊN TRÌNH DUYỆT
+
+   //1. localStorage.setItem("key", "value")
+   localStorage.setItem("name", "khai le");
+
+   //2. localStorage.getItem("key")
+   localStorage.getItem('name')

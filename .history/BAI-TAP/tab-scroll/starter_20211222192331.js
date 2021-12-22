@@ -1,6 +1,7 @@
 window.addEventListener("load", function () {
    const tabItems = document.querySelectorAll(".tab-item");
    const tabList = document.querySelector(".tab-list");
+   // const tab = document.querySelector(".tab");
    const tabNext = document.querySelector(".tab-next");
    const tabPrev = document.querySelector(".tab-prev");
    const tabScrollWidth = tabList.scrollWidth - tabList.clientWidth;
