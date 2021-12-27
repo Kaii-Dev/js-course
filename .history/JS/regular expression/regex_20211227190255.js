@@ -1,0 +1,2 @@
+// regular epression : biểu thức chính quy
+   // 1. NHỮNG CÁCH KHAI BÁO VỚI REG
