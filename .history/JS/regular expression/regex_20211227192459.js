@@ -24,4 +24,4 @@
    /[a-z]/.test["A"]; // false
    /[A-Z]/.test["Z"]; //true
    /[0-9]/.test["14639"]; //true vì trong 14369 từng số trong đó đều thuộc các số từ 0 đến 9
-   /[0-9]/.test["abv14639zhg"]; //true 
+   /[0-9]/.test["14639"]; //true vì trong 14369 từng số trong đó đều thuộc các số từ 0 đến 

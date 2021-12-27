@@ -21,7 +21,5 @@
       // [a-z0-9A-Z] : các số từ 0->9 hoặc từ a->z hoặc từ A->Z
 
    /[a-z]/.test["abcd"]; // true
-   /[a-z]/.test["A"]; // false
-   /[A-Z]/.test["Z"]; //true
-   /[0-9]/.test["14639"]; //true vì trong 14369 từng số trong đó đều thuộc các số từ 0 đến 9
-   /[0-9]/.test["abv14639zhg"]; //true 
+   /[a-z]/.test["A"];
+   /[a-z]/.test["abcd"];
