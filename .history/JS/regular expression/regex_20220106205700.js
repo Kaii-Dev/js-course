@@ -72,17 +72,5 @@
    // 6 . GROUP
    /(\d{3})(\w+)/.test("123"); // false
 
-   //7. ESCAPING \ / [ ] ( ) { } ? + * | . ^ $ => dùng để js nhận biết 1 cái symbol nào đó không phải là regex 
-   /\?/.test('?'); 
-   /\*/.test('*'); 
-   //8. BOUNDARIES \b \B
-      // \b => từ cần kiếm phải đứng 1 mình
-      console.log('my name is khaile'.match(/\bkhaile/g));  //khaile
-      // \B => từ cần kiếm phải dính liền
-      console.log('my name is khaile'.match(/\Bkhaile/g));  //null
+   //7. ESCAPING \ / [ ] ( ) { } ? + * | . ^ $
    
-   //9 REPLACE
-   
-    const str4 = 'hello welcome to my hello';
-   //  string.replace(regex, value);
-   console.log(str4.replace(/hello/g, 'hi'));

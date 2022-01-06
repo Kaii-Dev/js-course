@@ -82,7 +82,5 @@
       console.log('my name is khaile'.match(/\Bkhaile/g));  //null
    
    //9 REPLACE
-   
     const str4 = 'hello welcome to my hello';
-   //  string.replace(regex, value);
-   console.log(str4.replace(/hello/g, 'hi'));
+    console.log(str4.rep);

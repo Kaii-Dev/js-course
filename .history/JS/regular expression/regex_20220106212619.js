@@ -84,5 +84,6 @@
    //9 REPLACE
    
     const str4 = 'hello welcome to my hello';
+    console.log(str4.replace("hello", 'hi'));
    //  string.replace(regex, value);
-   console.log(str4.replace(/hello/g, 'hi'));
+   console.log(str4.replace(/hello/g),);
