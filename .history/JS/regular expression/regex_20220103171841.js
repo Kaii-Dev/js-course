@@ -64,10 +64,3 @@
          //g: global : lấy nhiều giá trị
          //i: case insensitive - phân biệt chữ hoa chữ thường
          //m: multipe lines - phân biệt nhiều dòng
-
-      // *: không có hoặc là nhiều
-      const str3 = '12345';
-      console.log(str3.match(/\d*/g));
-
-   // 6 . GROUP
-   /(\d{3})(\w+)/.test("123"); // false

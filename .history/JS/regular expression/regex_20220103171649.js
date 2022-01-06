@@ -57,17 +57,9 @@
       console.log(str1.match(/\d+/)[0]);
 
       const str2 = "color or colour?";
-      // ? : có thể có hoặc không có kí tự nào đó
-      console.log(str2.match(/colou?r/g)); // => ['color', 'colour']
+      console.log(str2.match(/color/g));
 
       //flag
-         //g: global : lấy nhiều giá trị
+         //g: global
          //i: case insensitive - phân biệt chữ hoa chữ thường
          //m: multipe lines - phân biệt nhiều dòng
-
-      // *: không có hoặc là nhiều
-      const str3 = '12345';
-      console.log(str3.match(/\d*/g));
-
-   // 6 . GROUP
-   /(\d{3})(\w+)/.test("123"); // false

@@ -70,4 +70,4 @@
       console.log(str3.match(/\d*/g));
 
    // 6 . GROUP
-   /(\d{3})(\w+)/.test("123"); // false
+   //

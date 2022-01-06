@@ -27,7 +27,7 @@
    /[^a-z]/.test("abcd"); // false vì có dấu phủ định ^ trong ngoặc vuông
    /[0-9]/.test("abv14639zhg"); //true 
 
-   //4. META CHARACTERS
+   //4. meta characters
       //  \d : khớp với số nó sẽ tương đương với [0-9]
       /\d/.test("1234");
 
@@ -45,29 +45,4 @@
 
       // \n: khớp với newline
       // . : khớp với mọi thứ ngoại trừ \n
-      // [^] : khớp với mọi thứ 
-
-   //5. QUANTIFIERS : {n} {n,m} + ? *
-      //string.match(regex) 
-      //{n} : số lượng nhất định
-      //{n,m}: số lượng trong khoảng từ n tới m
-      // + : lấy 1 hoặc nhiều kí tự thỏa điều kiện
-      const str1= 'welcome to 202221';
-      console.log(str1.match(/\d{4}/)[0]);
-      console.log(str1.match(/\d+/)[0]);
-
-      const str2 = "color or colour?";
-      // ? : có thể có hoặc không có kí tự nào đó
-      console.log(str2.match(/colou?r/g)); // => ['color', 'colour']
-
-      //flag
-         //g: global : lấy nhiều giá trị
-         //i: case insensitive - phân biệt chữ hoa chữ thường
-         //m: multipe lines - phân biệt nhiều dòng
-
-      // *: không có hoặc là nhiều
-      const str3 = '12345';
-      console.log(str3.match(/\d*/g));
-
-   // 6 . GROUP
-   /(\d{3})(\w+)/.test("123"); // false
+      // [] : khớp với mọi thứ 
