@@ -1,0 +1,1 @@
+const par = document.querySelector("p")

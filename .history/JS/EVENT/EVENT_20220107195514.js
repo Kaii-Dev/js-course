@@ -44,7 +44,7 @@
       console.log(`event.target: ${event.target}`);
       //event.currentTarget: là phần tử mà evenListener được gắn vào 
       console.log(`event.currentTarget: ${event.currentTarget}`);
-      // once : true; chạy 1 lần duy nhất
+      // once : true; 
    })
 
 
