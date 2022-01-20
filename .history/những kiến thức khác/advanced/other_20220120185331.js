@@ -1,0 +1,1 @@
+// 1. sự khác nhau giữa i++ và ++i
