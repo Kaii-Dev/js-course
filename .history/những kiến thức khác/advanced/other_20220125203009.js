@@ -103,10 +103,4 @@ const mySet = new Set();
 
    // cách 2
    let result = [];
-   for( let index = 0; index < arr.length; index++){
-      const element = arr[index]
-      if(!result.includes(element)){
-         result.push(element)
-      }
-   }
-   console.log(result);
+   for( let index = 0; index <)

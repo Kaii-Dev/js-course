@@ -54,59 +54,10 @@ input.addEventListener("keyup", () => {
 // 8. ĐỆ QUY : gọi lại chính nó
 const complexArr = [[1,2,3], [3,4,5], [[2,3], [2,3,4]]];
 // ket qua mong muon [1,2,3,3,4,5,2,3,2,2,3,4]
-      //cach 1:
-      console.log(complexArr.flat(Infinity));
-      //cach 2:
+      //cach 1
+      // console.log(complexArr.flat(Infinity));
+      //cach 2
       function flatArr(arr, deep){ //deep: độ sâu cua mang
-         const result = deep > 0 ? arr.reduce((a , value) => a.concat(Array.isArray(value) ? flatArr(value, deep-1): value), 
-         []
-      )
-         : arr.slice();
-         return result;
+         const result = deep > 0 ? arr.reduce((a,b) =) : arr.slice();
       } 
-      console.log(flatArr(complexArr, Infinity))
-      /** giải thích trong reduce
-       * kiểmt ra xem nó phải là mảng hay không? nếu đúng thì gọi là hàm flatArr
-       * luồng hoạt động:
-       *  - mới vào : [].concat([1,2,3])
-       *  - sau đó : [1,2,3].concat[3,4,5]
-       * ...
-       */
 
-//9. Set : dùng để chứa những giá trị duy nhất 
-
-const mySet = new Set();
-      //add
-         mySet.add(1);
-         mySet.add("khai le");
-         console.log(mySet);
-      //has
-         mySet.has(1); //true
-      //delete
-         mySet.delete('khai le');
-         console.log(mySet);
-      //size
-         console.log(mySet.size);
-      //clear
-         mySet.clear();
-         // console.log(mySet);
-   // ví dụ: cho 1 mảng trùng nhiều giá trị lấy ra những giá trị ko trùng nhau
-
-   //cách 1
-         const arr = [1,1,1,2,3,4,4,4,5,5,6,6,6,7]
-            //array to set : lúc này kết quả sẽ ra object
-         const mySet2= new Set(arr);
-         console.log(mySet2);
-            // set to array : chuyển từ object sang array
-         const newArr = Array.from(mySet2); //const newArr = [...mySet2]
-         console.log(newArr);
-
-   // cách 2
-   let result = [];
-   for( let index = 0; index < arr.length; index++){
-      const element = arr[index]
-      if(!result.includes(element)){
-         result.push(element)
-      }
-   }
-   console.log(result);

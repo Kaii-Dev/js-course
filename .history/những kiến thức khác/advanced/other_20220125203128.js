@@ -108,5 +108,5 @@ const mySet = new Set();
       if(!result.includes(element)){
          result.push(element)
       }
+      console.log(result);
    }
-   console.log(result);

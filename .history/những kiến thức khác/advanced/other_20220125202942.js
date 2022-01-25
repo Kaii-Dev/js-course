@@ -101,12 +101,4 @@ const mySet = new Set();
          const newArr = Array.from(mySet2); //const newArr = [...mySet2]
          console.log(newArr);
 
-   // cách 2
-   let result = [];
-   for( let index = 0; index < arr.length; index++){
-      const element = arr[index]
-      if(!result.includes(element)){
-         result.push(element)
-      }
-   }
-   console.log(result);
+   

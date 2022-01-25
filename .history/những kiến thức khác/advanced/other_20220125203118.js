@@ -109,4 +109,3 @@ const mySet = new Set();
          result.push(element)
       }
    }
-   console.log(result);

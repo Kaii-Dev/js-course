@@ -73,7 +73,7 @@ const complexArr = [[1,2,3], [3,4,5], [[2,3], [2,3,4]]];
        * ...
        */
 
-//9. Set : dùng để chứa những giá trị duy nhất 
+//9. Set
 
 const mySet = new Set();
       //add
@@ -82,31 +82,3 @@ const mySet = new Set();
          console.log(mySet);
       //has
          mySet.has(1); //true
-      //delete
-         mySet.delete('khai le');
-         console.log(mySet);
-      //size
-         console.log(mySet.size);
-      //clear
-         mySet.clear();
-         // console.log(mySet);
-   // ví dụ: cho 1 mảng trùng nhiều giá trị lấy ra những giá trị ko trùng nhau
-
-   //cách 1
-         const arr = [1,1,1,2,3,4,4,4,5,5,6,6,6,7]
-            //array to set : lúc này kết quả sẽ ra object
-         const mySet2= new Set(arr);
-         console.log(mySet2);
-            // set to array : chuyển từ object sang array
-         const newArr = Array.from(mySet2); //const newArr = [...mySet2]
-         console.log(newArr);
-
-   // cách 2
-   let result = [];
-   for( let index = 0; index < arr.length; index++){
-      const element = arr[index]
-      if(!result.includes(element)){
-         result.push(element)
-      }
-   }
-   console.log(result);
