@@ -1,0 +1,1 @@
+//browser object model : alert, prompt, confirm
