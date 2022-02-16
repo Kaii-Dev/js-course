@@ -23,7 +23,7 @@ function Students(name, age, school){
 let student2 = new Students('an', 19, 'chau van liem');
 console.log(student2.getName()); 
 
-//prototype : thuộc tính - có tính chất kế thừa
+//prototype : thuộc tính
 let str = 'abc';
 str.toUpperCase();
 String.prototype.duplicate = function(){
@@ -31,20 +31,13 @@ String.prototype.duplicate = function(){
 }
 console.log(str.duplicate());
 
-// ví dụ về constructor function và prototype
+// ví dụ về 
 
-   //định nghĩa về constructor function cần tạo
 function girl(){
-   
    this.cook= function(){
-      console.log('your girl can cook'); 
+      console.log(object); 
    }
 }
-girl.prototype.sing = function(){
-   console.log('your girl can sing');
-}
-let an = new girl(); // xác định biến an là thuộc về constructor function
 
-//biến an lúc này có tính chất kế thừa nên có thể sử dụng cook và sing
+let an = new girl();
 an.cook();
-an.sing();

@@ -31,7 +31,7 @@ String.prototype.duplicate = function(){
 }
 console.log(str.duplicate());
 
-// ví dụ về constructor function và prototype
+// ví dụ về constructor function
 
    //định nghĩa về constructor function cần tạo
 function girl(){
