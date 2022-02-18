@@ -8,8 +8,7 @@ function Course(name, price){
 }
 const phpCourse = new Course('php', 1000)
 const jsCourse = new Course('js', 1030)
-console.log(phpCourse);
-console.log(jsCourse);
+console.log(object);
 
 let studens = {
    name : "khai",

@@ -88,17 +88,13 @@ console.log(khai.name);
       }
    }
 
-   class Bird extends animal{ //super() là hàm trỏ tới constructor của class cha
+   class dog extends animal{
       //dùng super để kế thừa constructor của class animal
-      constructor(legs){
+      constructor(legs, name){
          super(legs);
       }
       fly(){
-         console.log("i can fly");
+         console.log(``);
       }
    }
-
-   const bird = new Bird(2);
-   console.log(bird.fly());
-   console.log(bird.walking());
 

@@ -6,10 +6,6 @@ function Course(name, price){
    this.name= name;
    this.price= price;
 }
-const phpCourse = new Course('php', 1000)
-const jsCourse = new Course('js', 1030)
-console.log(phpCourse);
-console.log(jsCourse);
 
 let studens = {
    name : "khai",

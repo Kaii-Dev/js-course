@@ -10,7 +10,7 @@ const John = new Person('John');
 John.getName();
 
 
-   //CLASS : trong class có định nghĩa constructor(khởi tạo), setter, getter, static
+   //CLASS : trong class có định nghĩa constructor, setter, getter, static
 class Person2{
    constructor(name){
       this.name= name;
@@ -78,27 +78,4 @@ console.log(khai.name);
    const car = new Item('bmw');
    console.log(Item.getCount());
 
-   //SUPER + EXTENDS
-   class animal{
-      constructor(legs){
-         this.legs= legs;
-      }
-      walking(){
-         console.log(`walking on ${this.legs} legs`);
-      }
-   }
-
-   class Bird extends animal{ //super() là hàm trỏ tới constructor của class cha
-      //dùng super để kế thừa constructor của class animal
-      constructor(legs){
-         super(legs);
-      }
-      fly(){
-         console.log("i can fly");
-      }
-   }
-
-   const bird = new Bird(2);
-   console.log(bird.fly());
-   console.log(bird.walking());
-
+   //SUPER 

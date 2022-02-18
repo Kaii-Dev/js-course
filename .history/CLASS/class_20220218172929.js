@@ -10,7 +10,7 @@ const John = new Person('John');
 John.getName();
 
 
-   //CLASS : trong class có định nghĩa constructor(khởi tạo), setter, getter, static
+   //CLASS : trong class có định nghĩa constructor, setter, getter, static
 class Person2{
    constructor(name){
       this.name= name;
@@ -62,43 +62,13 @@ console.log(khai.name);
    articles.sort(Article.compare);
    console.log(articles[0].title); //in ra giá trị 0 của mảng sau khi sort
 
-   //STATIC PROPERTY
+   //STATIC METHOD
    class Item{
-      constructor(name){
+      constructor(){
          this.name= name;
-         this.constructor.count++;
       }
       static count = 0;
       static getCount(){
          return Item.count;
       }
    }
-
-   const pen = new Item('pencil'); // mỗi khi khởi tạo 1 đối tượng với từ khóa new thì nó sẽ gọi vào this.constructor.count => count tăng lên 1
-   const car = new Item('bmw');
-   console.log(Item.getCount());
-
-   //SUPER + EXTENDS
-   class animal{
-      constructor(legs){
-         this.legs= legs;
-      }
-      walking(){
-         console.log(`walking on ${this.legs} legs`);
-      }
-   }
-
-   class Bird extends animal{ //super() là hàm trỏ tới constructor của class cha
-      //dùng super để kế thừa constructor của class animal
-      constructor(legs){
-         super(legs);
-      }
-      fly(){
-         console.log("i can fly");
-      }
-   }
-
-   const bird = new Bird(2);
-   console.log(bird.fly());
-   console.log(bird.walking());
-

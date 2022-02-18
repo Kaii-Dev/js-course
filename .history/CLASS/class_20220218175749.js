@@ -99,6 +99,7 @@ console.log(khai.name);
    }
 
    const bird = new Bird(2);
-   console.log(bird.fly());
    console.log(bird.walking());
+   console.log(bird.fly());
+   console.log(bird.fly());
 

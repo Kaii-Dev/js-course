@@ -80,25 +80,5 @@ console.log(khai.name);
 
    //SUPER + EXTENDS
    class animal{
-      constructor(legs){
-         this.legs= legs;
-      }
-      walking(){
-         console.log(`walking on ${this.legs} legs`);
-      }
+      constructor(legs)
    }
-
-   class Bird extends animal{ //super() là hàm trỏ tới constructor của class cha
-      //dùng super để kế thừa constructor của class animal
-      constructor(legs){
-         super(legs);
-      }
-      fly(){
-         console.log("i can fly");
-      }
-   }
-
-   const bird = new Bird(2);
-   console.log(bird.fly());
-   console.log(bird.walking());
-
