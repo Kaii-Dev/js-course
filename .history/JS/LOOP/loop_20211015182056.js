@@ -124,7 +124,7 @@ console.log("--------BÀI TẬP--------");
  console.log("--------while--------");
 let number = 1;
 
-while (number < 3){
+while (number <3){
    console.log("number is"+ " " +number);
    //điều kiện dừng
    number = number + 1;

@@ -1,0 +1,29 @@
+// single thread  - đơn luồng
+// call stack : ngăn xếp chờ để gọi
+// stack trace : lịch sử gọi
+
+// EVENT LOOP: luôn theo dõi call stack và thằng queue
+
+//http://latentflip.com : tham khảo
+
+function task(message){
+   let num = 1000000;
+   while(num > 0){
+      num--;
+   }
+   console.log(num);
+   console.log(message);
+}
+// console.log('start');
+// task('loading'); // đây là blocking script bởi vì phải đợi nó thực thi xong thì clg('end') mới chạy tiếp
+// console.log('end');
+
+// 1. CALL BACK : dùng để khắc phục blocking script
+
+console.log('start');
+setTimeout(() => {
+   task('loading');
+}, 2000);
+console.log('end');
+
+//WEB APIs: timer (settimeout, setinterval...), fetch request, dom event

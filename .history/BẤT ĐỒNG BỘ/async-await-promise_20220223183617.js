@@ -1,0 +1,7 @@
+// 1.GLOBAL EXCUTION CONTEXT
+// 2.FUNCTION EXCUTION CONTEXT
+// 3.CALL STACK : QUẢN LÝ CHUYỂN ĐỘNG CỦA HỆ THỐNG
+
+function add(a,b){
+   
+}

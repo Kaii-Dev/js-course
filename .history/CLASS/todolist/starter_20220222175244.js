@@ -130,7 +130,7 @@ class Model {
    handleTodoChange = (todos) => {
      this.view.displayTodos(todos);
    };
- 
+   // 
    handleAddTodo = (todoText) => {
      this.model.addTodo(todoText);
    };

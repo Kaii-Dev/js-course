@@ -1,0 +1,2 @@
+// single thread  - đơn luồng
+
