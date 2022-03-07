@@ -1,0 +1,1 @@
+// các trạng thái của promise :  pending, resolve  , rejected

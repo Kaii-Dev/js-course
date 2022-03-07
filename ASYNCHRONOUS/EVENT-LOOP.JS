@@ -28,3 +28,15 @@ setTimeout(() => {
 console.log('end');
 
 //WEB APIs: timer (settimeout, setinterval...), fetch request, dom event
+
+// callbacks hell
+
+setTimeout(() => {
+   console.log('run the first time');
+   setTimeout(() => {
+      console.log('run the second time');
+      setTimeout(() => {
+         console.log('run the third time');
+      },1000);
+   },2000);
+},5000);
