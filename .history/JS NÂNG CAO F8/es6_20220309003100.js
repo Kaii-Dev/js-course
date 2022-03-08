@@ -88,11 +88,10 @@ console.log(html);
 //khi mà import mà không có destruturing thì đó là import cái module export default
 
 import loggerTest from './export.js';
-import * as constant from './constant.js'; // cách này dùng để import tất cả các export
-
-console.log(constant);
-
-loggerTest('test message...', constant.TYPE_WARN)
-
-
+import {
+   TYPE_ERROR,
+   TYPE_LOG,
+   TYPE_WARN
+ }from './constant.js';
+loggerTest('test message...', TYPE_WARN)
 

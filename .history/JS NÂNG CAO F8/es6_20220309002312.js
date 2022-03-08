@@ -85,14 +85,6 @@ console.log(html);
 
 //7 MODULES : import, export. muốn xài thì link script phải có type="module" vào. một module chỉ 1 export default
 
-//khi mà import mà không có destruturing thì đó là import cái module export default
-
 import loggerTest from './export.js';
-import * as constant from './constant.js'; // cách này dùng để import tất cả các export
-
-console.log(constant);
-
-loggerTest('test message...', constant.TYPE_WARN)
-
-
+loggerTest('test message...', 'warn')
 

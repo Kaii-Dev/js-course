@@ -72,27 +72,11 @@ console.log(name);
 
 //6 TAGGED TEAMPLATE LITERAL:
 
-function highLight([first, ...strings], ...values){
-   return values.reduce(
-      (acc, curr)=> [...acc, `<span>${curr}</span>`, strings.shift()], [first]) // [first] : là giá trị khởi tạo
-      .join("");
+function highLight([first, ...rest]){
+   
 }
 const brand = 'F8';
 const lang = 'javascript'
 
-const html = highLight`hoc lap trinh ${lang} tai ${brand}!`;
-console.log(html);
-
-//7 MODULES : import, export. muốn xài thì link script phải có type="module" vào. một module chỉ 1 export default
-
-//khi mà import mà không có destruturing thì đó là import cái module export default
-
-import loggerTest from './export.js';
-import * as constant from './constant.js'; // cách này dùng để import tất cả các export
-
-console.log(constant);
-
-loggerTest('test message...', constant.TYPE_WARN)
-
-
+const html = highLight`hoc lap trinh ${lang} tai ${brand}`;
 

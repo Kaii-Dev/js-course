@@ -37,4 +37,5 @@ promise
       console.log(error);
    })
 
- 
+   //module
+   function logger()

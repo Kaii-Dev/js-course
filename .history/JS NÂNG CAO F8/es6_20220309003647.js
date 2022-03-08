@@ -94,5 +94,3 @@ console.log(constant);
 
 loggerTest('test message...', constant.TYPE_WARN)
 
-
-

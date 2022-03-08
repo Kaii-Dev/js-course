@@ -37,4 +37,7 @@ promise
       console.log(error);
    })
 
- 
+   //module
+   function logger(log, type='log'){
+      console[(object);
+   }
