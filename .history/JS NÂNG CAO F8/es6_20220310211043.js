@@ -94,7 +94,7 @@ console.log(constant);
 
 loggerTest('test message...', constant.TYPE_WARN)
 
-//8. OPTIONAL CHAINING: khi nghi ngờ 1 key/fnc/arr/obj không tồn tại thì sử dụng dấu "?" ở trước key để tránh lỗi
+//8. OPTIONAL CHAINING: khi nghi ngờ 1 key obj không tồn tại thì sử dụng dấu "?" ở trước key để tránh lỗi
    //ví dụ 1
    const obj = {
       cat:{

@@ -1,0 +1,22 @@
+.toast{
+   display: flex;
+   align-items: center;
+   background-color: white;
+   border-radius: 2px;
+   border
+}
+.toast__icon{
+
+}
+.toast__body{
+
+}
+.toast__title{
+
+}
+.toast__msg{
+
+}
+.toast__close{
+
+}

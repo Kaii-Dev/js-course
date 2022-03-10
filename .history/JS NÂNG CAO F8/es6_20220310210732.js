@@ -94,13 +94,13 @@ console.log(constant);
 
 loggerTest('test message...', constant.TYPE_WARN)
 
-//8. OPTIONAL CHAINING: khi nghi ngờ 1 key/fnc/arr/obj không tồn tại thì sử dụng dấu "?" ở trước key để tránh lỗi
-   //ví dụ 1
+//8. OPTIONAL CHAINING: khi nghi ngờ 1 key hoặc obj không tồn tại thì sử dụng dấu "?" ở trước key để tránh lỗi
+
    const obj = {
       cat:{
          name : 'f8',
          cat2:{
-            name:'meo meow',
+            name:'meo meow'
             cat3:{
                name:'gau gau'
             }
@@ -108,6 +108,6 @@ loggerTest('test message...', constant.TYPE_WARN)
       }
    }
 
-   if(obj.cat?.cat2?.cat3){
+   if(obj?.cat?.cat2?.cat3){
       console.log(obj.cat.cat2.cat3.name);    
    }
