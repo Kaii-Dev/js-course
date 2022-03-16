@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>joke</title>
+   <style>
+      a{
+   text-decoration: none;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+*:before,
+*:after{
+   box-sizing: border-box;
+}
+
+img{ 
+   max-width: 100%;
+   display: block;
+}
+
+body{
+   font-family: 'Poppins', sans-serif;
+   font-size: 14px;
+   line-height: 1;
+}
+
+input,
+button,
+select,
+textarea{
+   outline: none;
+   font-family: 'Poppins', sans-serif;
+}
+
+input{
+   padding: 15px;
+   line-height: normal;
+}
+     
+      /* .joke {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 50px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+.joke-heading {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.joke-button {
+  border: 0;
+  outline: none;
+  display: block;
+  padding: 0 30px;
+  border-radius: 8px;
+  color: white;
+  background-color: #20e3b2;
+  position: relative;
+  height: 55px;
+  width: 100%;
+  max-width: 200px;
+}
+.loader {
+  width: 20px;
+  height: 20px;
+  border: 3px solid white;
+  border-left: 3px solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: spin 1s infinite linear forwards;
+  display: none;
+}
+@keyframes spin {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.joke.is-loading .joke-button {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.joke.is-loading .joke-button .loader {
+  display: block;
+}
+.joke.is-loading .joke-button span {
+  display: none;
+}
+   </style>
+</head>
+<body>
+   <!-- <div class="username"></div> -->
+   <!-- <script src="./api.js"></script> -->
+   <div class="joke">
+      <h1 class="joke-heading"><h1>
+      <button class="joke-button">
+         <div class="loader">
+            <span>Get random joke!</span>
+         </div>
+      </button>
+   </div>
+   <script src="./joke.js"></script>
+</body>
+</html>

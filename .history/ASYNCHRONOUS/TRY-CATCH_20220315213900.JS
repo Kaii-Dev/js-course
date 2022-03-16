@@ -1,0 +1,1 @@
+//then - catch thì dùng để lấy dữ liệu 
