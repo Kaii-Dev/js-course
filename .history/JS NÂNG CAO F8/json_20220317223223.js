@@ -1,0 +1,1 @@
+//JSON - javascript object : là một định dạng dữ liệu (chuỗi)

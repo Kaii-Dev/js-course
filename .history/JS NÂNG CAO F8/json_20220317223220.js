@@ -1,0 +1,1 @@
+//JSON - javascript obn: là một định dạng dữ liệu (chuỗi)

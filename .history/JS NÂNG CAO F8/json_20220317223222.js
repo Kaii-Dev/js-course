@@ -1,0 +1,1 @@
+//JSON - javascript ob: là một định dạng dữ liệu (chuỗi)
