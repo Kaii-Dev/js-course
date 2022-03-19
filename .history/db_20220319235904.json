@@ -1,0 +1,42 @@
+{
+  "course": [
+    {
+      "id": 1,
+      "name": "kiến thức cơ bản cho người mới bắt đầu",
+      "description": "kiến thức nhập môn cho người mới tiếp cận với lập trình"
+    },
+    {
+      "name": "xây dựng web với nodejs 2",
+      "description": "xây dựng web trong thực tế 1",
+      "id": 2
+    },
+    {
+      "name": "thiết kế web responsive",
+      "description": "nắm chắc tư tưởng cốt lỗi của việc xây dựng giao diện web",
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "name": "test1",
+      "description": "description 1",
+      "id": 5
+    },
+    {
+      "name": "HTML, CSS tips",
+      "description": "description",
+      "id": 6
+    },
+    {
+      "name": "ád",
+      "description": "ád",
+      "id": 7
+    }
+  ]
+}
+{
+  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  "profile": { "name": "typicode" }
+}
