@@ -1,0 +1,45 @@
+
+
+const endpoint = " http://localhost:1312/course";
+
+async function add({
+  image, title, author, rating, price, bestSeller, buyAmount}) {
+  const response = await fetch(endpoint, {
+    method: "POST",
+    body: JSON.stringify({
+      image,
+      title,
+      author,
+      rating,
+      price,
+      bestSeller,
+      buyAmount,
+    }),
+    headers: {
+      "Content-type": "application/json; charset=UTF-8",
+    },
+  });
+}
+
+const formPost = document.querySelector(".form-post");
+formPost.addEventListener("submit", function (e) {
+  const courses = {
+    image: const image = this.elements["image"].value,
+    title: const title = this.elements["title"].value,
+    author: "",
+    rating: "",
+    price: "",
+    bestSeller: false,
+    buyAmount: "",
+  };
+  e.preventDefault();
+  
+  
+  const author = this.elements["author"].value;
+  const rating = this.elements["rating"].value;
+  const price = this.elements["price"].value;
+  const bestSeller = this.elements["bestSeller"].checked;
+  const buyAmount = this.elements["buyAmount"].value;
+
+  add(image, title, author, rating, price, bestSeller, buyAmount);
+});

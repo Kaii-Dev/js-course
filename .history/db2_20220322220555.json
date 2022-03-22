@@ -1,0 +1,12 @@
+{
+  "posts": [],
+  "course": [],
+  "comments": [{
+    "id": 1,
+    "name": "John Doe",
+    "email": ""
+  }],
+  "profile": {
+    "name": "typicode"
+  }
+}
