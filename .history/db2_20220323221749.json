@@ -1,0 +1,52 @@
+{
+  "posts": [{
+    "id": 1,
+    "title": "Lorem ipsum dolor sit amet",
+  }],
+  "course": [
+    {
+      "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "title": "Javascript for beginner",
+      "author": "Jonas",
+      "rating": 5,
+      "price": 90,
+      "bestSeller": true,
+      "buyAmount": 2000,
+      "id": 1
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1494599948593-3dafe8338d71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "title": "Nodejs",
+      "author": "Son Dang",
+      "rating": 5,
+      "price": 80,
+      "bestSeller": true,
+      "buyAmount": 3000,
+      "id": 3
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "title": "Kiến Thức Nhập Môn IT",
+      "author": "Son Dang",
+      "rating": 4,
+      "price": 50,
+      "bestSeller": true,
+      "buyAmount": 10000,
+      "id": 4
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80",
+      "title": "HTML, CSS từ Zero đến Hero",
+      "author": "Kvi Dev",
+      "rating": 5,
+      "price": 60,
+      "bestSeller": true,
+      "buyAmount": 333,
+      "id": 5
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
