@@ -1,0 +1,11 @@
+const tabs = document.querySelectorAll(".tab-item");
+const panes = document.querySelectorAll(".tab-pane");
+
+tabs.forEach((tab, index) => {
+  tab.addEventListener("click", () => {
+    tabs.forEach((tab) => tab.classList.remove("active"));
+    panes.forEach((pane) => pane.classList.remove("active"));
+    tab.classList.add("active");
+    panes[index].classList.add("active");
+  });
+});
